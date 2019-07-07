@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2231574836632334058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2231574836632334052}
+  - component: {fileID: 2231574836632334053}
+  - component: {fileID: 2231574836632334055}
+  - component: {fileID: 2231574836632334054}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2231574836632334052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231574836632334058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.23, y: 0.007311036, z: -5.3203125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2231574836632334053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231574836632334058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fb46e9fe2179d49be7dc8960a2f922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2231574836632334055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231574836632334058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539de13ecd638ea4a8b98589a73c817c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TempList:
+  - Prefab: {fileID: 2937783541289004562, guid: 51191b297d8fab7438d93b8bb1434641,
+      type: 3}
+    Count: 0
+    MaxCount: 4
+    Button: {fileID: 56117719752015880, guid: 3704e7ea5d681ed4aa3af3aa1a20e116, type: 3}
+    Name: Plane
+  - Prefab: {fileID: 7415669627256999093, guid: 6f4e1669607083c42b338714f4946978,
+      type: 3}
+    Count: 0
+    MaxCount: 1
+    Button: {fileID: 8484323522473035676, guid: 3e5fd6ab59abd92438eec90efe86775d,
+      type: 3}
+    Name: Spring
+  Canvas: {fileID: 0}
+  XStart: -500
+  YStart: -420
+  XAdd: 170
+  YAdd: 0
+--- !u!114 &2231574836632334054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2231574836632334058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dc84b6e8f6ea5489eb8df7cacf7de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartButton: {fileID: 6198035951269165493, guid: b2691c749ba681a4ba8f9bdf16ae54f2,
+    type: 3}
+  StopButton: {fileID: 6351560571249159382, guid: 2960a335549c67e4594d3fd355c4b34d,
+    type: 3}
+  SelectLevelButton: {fileID: 6406628735593842689, guid: 0cbeead82f6d6e042befb8440bc1adc6,
+    type: 3}
+  SelectLevelScreen: {fileID: 5990165523988836758, guid: 96c5b5710985b544793a29350beced81,
+    type: 3}
+  FinishScreen: {fileID: 1758660769690413612, guid: fa99e740d3261784e9ca5c460492a5b3,
+    type: 3}
+  StartPosition: {x: -6, y: 2}
